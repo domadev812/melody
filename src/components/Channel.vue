@@ -11,8 +11,8 @@
         <cam-preview class="mb-4">
           <template #video>
             <vue-player
-              src="/static/PreviewWebsite.mp4"
-              video-placeholder-src="/static/PreviewWebsite.mp4"
+              src="/static/small.mp4"
+              video-placeholder-src="/static/small.mp4"
               style="height: 100%"
               :controls="false"
             />

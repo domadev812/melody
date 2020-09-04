@@ -2,6 +2,7 @@
   <v-app-bar
       app
       color="white"
+      height="75"
     >
       <!-- Navigation Drawer activator -->
       <!-- <v-app-bar-nav-icon v-if="$vuetify.breakpoint.mobile" @click="$emit('click')" /> -->
@@ -17,21 +18,24 @@
 
       <!-- Nav buttons -->
       <v-row justify="end">
-        <v-btn
+        <div
           v-for="btn in buttons"
-          :key="btn.name"
-          :href="btn.link ? btn.link : null"
-          rounded
-          :target="btn.link ? '_blank' : null"
-          class="nav-btn mr-2 p-0"
-          :class="btn.class ? btn.class : ''"
-          :color="btn.color"
-          link
-          :small="$vuetify.breakpoint.mobile"
-          @click.stop="!btn.link ? dialog = true : null"
-        >
-          <span>{{ btn.name }}</span>
-        </v-btn>
+          :key="btn.name">
+          <v-btn
+            :href="btn.link ? btn.link : null"
+            rounded
+            :target="btn.link ? '_blank' : null"
+            class="nav-btn mr-2 p-0"
+            :class="btn.class ? btn.class : ''"
+            :color="btn.color"
+            link
+            :small="$vuetify.breakpoint.mobile"
+            @click.stop="!btn.link ? dialog = true : null"
+          >
+            <span>{{ btn.name }}</span>
+          </v-btn>
+          <div class="btn-under-text" v-if="btn.moreText">{{ btn.moreText }}</div>
+        </div>
       </v-row>
       <!-- ./Nav buttons -->
 
@@ -80,5 +84,7 @@
 </script>
 
 <style lang="scss" scoped>
-
+  .btn-under-text {
+    text-align: center;
+  }
 </style>

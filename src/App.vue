@@ -52,7 +52,8 @@ export default {
         icon: '',
         link: 'https://t.bdwafx.com/alt4o9a3wg?url_id=14981&aff_id=75586&offer_id=2994&bo=2779,2778,2777,2776,2775&po=6533',
         color: 'black',
-        class: 'orange--text'
+        class: 'orange--text',
+        moreText: 'Powered by CamRoyal',
       },
       { name: 'signup', icon: '', color: 'secondary', rounded: false },
     ]
