@@ -1,10 +1,11 @@
 <template>
-  <v-card height="300" width="450">
+  <v-card :height="height" width="450">
     <slot name="video" />
     <v-overlay
       :value="true"
       absolute
       opacity="0.7"
+      class="preview-overlay"
     >
       <slot name="overlay" />
     </v-overlay>
@@ -13,7 +14,13 @@
 
 <script>
   export default {
-    name: 'CamPreview'
+    name: 'CamPreview',
+
+    props: {
+      height: {
+        type: Number,
+      },
+    }
   }
 </script>
 
