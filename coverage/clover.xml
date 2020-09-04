@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1599075482699" clover="3.2.0">
+  <project timestamp="1599075482700" name="All files">
+    <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6" elements="17" coveredelements="17" complexity="0" loc="11" ncloc="11" packages="4" files="6" classes="6"/>
+    <package name="components">
+      <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="Channel.vue" path="C:\Users\Nasr\Desktop\melody-cam\src\components\Channel.vue">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="34" count="2" type="stmt"/>
+        <line num="35" count="2" type="stmt"/>
+        <line num="36" count="2" type="stmt"/>
+        <line num="37" count="2" type="stmt"/>
+        <line num="46" count="2" type="stmt"/>
+        <line num="59" count="1" type="stmt"/>
+      </file>
+      <file name="Wrapper.vue" path="C:\Users\Nasr\Desktop\melody-cam\src\components\Wrapper.vue">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="18" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.channel-subs">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="Messages.vue" path="C:\Users\Nasr\Desktop\melody-cam\src\components\channel-subs\Messages.vue">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="34" count="1" type="stmt"/>
+      </file>
+      <file name="Switches.vue" path="C:\Users\Nasr\Desktop\melody-cam\src\components\channel-subs\Switches.vue">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="30" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.nav">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="Nav.vue" path="C:\Users\Nasr\Desktop\melody-cam\src\components\nav\Nav.vue">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="75" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.shared">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="ButtonModal.vue" path="C:\Users\Nasr\Desktop\melody-cam\src\components\shared\ButtonModal.vue">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="91" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
